@@ -1,0 +1,18 @@
+Customers = DISTINCTCOUNT('gold DimCustomer'[CustomerKey])
+
+Employees = DISTINCTCOUNT('gold FactSales'[EmployeeKey])
+
+Full Quantity = SUM('gold FactSales'[Quantity])
+
+Products = DISTINCTCOUNT('gold DimProduct'[ProductKey])
+
+Products Sold = COUNT('gold FactSales'[ProductKey])
+
+Total Income = SUM('gold FactSales'[TotalAmount])
+
+Total Quantity = SUM('gold FactSales'[Quantity])
+
+
+
+
+  
